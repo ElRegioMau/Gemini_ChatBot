@@ -1,7 +1,7 @@
 import { API_KEY } from "./config.js";
 
 export async function enviarMensajeGemini(mensajeUsuario) {
-  const url = "https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=" + API_KEY;
+  const url = "https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key=" + API_KEY;
 
   const body = {
     contents: [
